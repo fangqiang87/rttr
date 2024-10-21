@@ -1,2 +1,4 @@
 .vscode
 build
+.conda
+conda/environment.yml

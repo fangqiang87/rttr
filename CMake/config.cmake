@@ -54,7 +54,7 @@ endif()
 set_property(GLOBAL PROPERTY USE_FOLDERS ON)
 
 #3rd part dependencies dirs
-set(RTTR_3RD_PARTY_DIR "${CMAKE_SOURCE_DIR}/3rd_party")
+# set(RTTR_3RD_PARTY_DIR "${CMAKE_SOURCE_DIR}/3rd_party")
 
 getNameOfDir(CMAKE_LIBRARY_OUTPUT_DIRECTORY RTTR_TARGET_BIN_DIR)
 is_vs_based_build(VS_BUILD)

@@ -73,7 +73,7 @@ if (USE_PCH)
 endif()
 
 include(config)
-include(3rd_party_libs)
+# include(3rd_party_libs)
 
 if (BUILD_PACKAGE)
     include(installer)
